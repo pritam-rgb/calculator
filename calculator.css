@@ -1,0 +1,66 @@
+
+#container{
+	width: 50%;
+	height:65%;
+	position: fixed;
+	top:15%;
+    left:20%;
+    
+	background-color: lightgrey;
+	border:2px solid black;
+}
+#display-container{
+	width:100%;
+	height: 8%;
+	border-bottom: 1px solid transparent;
+	color:blue;
+	font-size: 2.8rem;
+	padding-bottom: 20px ;
+	/* margin-bottom: 7%; */
+	
+	
+}
+.button-container{
+	width:100%;
+    height:100%;
+    border:2px solid cyan;
+
+	
+
+}
+.button{
+	width: 23.85%;
+	height: 2.4rem;
+	background-color: whitesmoke ;
+	text-align: center;
+	
+	/* border: 0.5px solid transparent; */
+	display: inline-block;
+	
+	font-weight: bolder;
+}
+
+.red{
+	background-color: tomato;
+	width:25%;
+}
+	
+
+.button:hover{
+	background-color: orange;
+}
+
+#button-zero{
+	width:48.5%;
+}
+#note{
+	margin-top: -3%;
+	height:10%;
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+span{
+	position: relative;
+	top:15%;
+}
